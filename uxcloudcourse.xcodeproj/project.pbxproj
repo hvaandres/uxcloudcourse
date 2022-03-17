@@ -11,6 +11,7 @@
 		054E9A9A27D9C81E00701FF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E9A9927D9C81E00701FF5 /* ContentView.swift */; };
 		054E9A9C27D9C81F00701FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054E9A9B27D9C81F00701FF5 /* Assets.xcassets */; };
 		054E9A9F27D9C81F00701FF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054E9A9E27D9C81F00701FF5 /* Preview Assets.xcassets */; };
+		05DD02AA27E2FB96004EEFF6 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD02A927E2FB96004EEFF6 /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		054E9A9927D9C81E00701FF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		054E9A9B27D9C81F00701FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		054E9A9E27D9C81F00701FF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05DD02A927E2FB96004EEFF6 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				054E9A9727D9C81E00701FF5 /* uxcloudcourseApp.swift */,
 				054E9A9927D9C81E00701FF5 /* ContentView.swift */,
+				05DD02A927E2FB96004EEFF6 /* Styles.swift */,
 				054E9A9B27D9C81F00701FF5 /* Assets.xcassets */,
 				054E9A9D27D9C81F00701FF5 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05DD02AA27E2FB96004EEFF6 /* Styles.swift in Sources */,
 				054E9A9A27D9C81E00701FF5 /* ContentView.swift in Sources */,
 				054E9A9827D9C81E00701FF5 /* uxcloudcourseApp.swift in Sources */,
 			);
