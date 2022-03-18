@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05040CC427E52E2200569E4C /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05040CC327E52E2200569E4C /* AccountView.swift */; };
 		054E9A9827D9C81E00701FF5 /* uxcloudcourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E9A9727D9C81E00701FF5 /* uxcloudcourseApp.swift */; };
 		054E9A9A27D9C81E00701FF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E9A9927D9C81E00701FF5 /* ContentView.swift */; };
 		054E9A9C27D9C81F00701FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054E9A9B27D9C81F00701FF5 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05040CC327E52E2200569E4C /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		054E9A9427D9C81E00701FF5 /* uxcloudcourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uxcloudcourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		054E9A9727D9C81E00701FF5 /* uxcloudcourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uxcloudcourseApp.swift; sourceTree = "<group>"; };
 		054E9A9927D9C81E00701FF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				054E9A9727D9C81E00701FF5 /* uxcloudcourseApp.swift */,
 				054E9A9927D9C81E00701FF5 /* ContentView.swift */,
 				05DD02A927E2FB96004EEFF6 /* Styles.swift */,
+				05040CC327E52E2200569E4C /* AccountView.swift */,
 				054E9A9B27D9C81F00701FF5 /* Assets.xcassets */,
 				054E9A9D27D9C81F00701FF5 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05040CC427E52E2200569E4C /* AccountView.swift in Sources */,
 				05DD02AA27E2FB96004EEFF6 /* Styles.swift in Sources */,
 				054E9A9A27D9C81E00701FF5 /* ContentView.swift in Sources */,
 				054E9A9827D9C81E00701FF5 /* uxcloudcourseApp.swift in Sources */,
