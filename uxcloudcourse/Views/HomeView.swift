@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  uxcloudcourse
 //
-//  Created by Andres Haro on 3/9/22. ||
+//  Created by Andres Haro on 3/27/22.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         VStack (alignment: .leading, spacing: 8.0){
             Spacer()
@@ -63,14 +63,11 @@ struct ContentView: View {
                 .frame(height: 230)
                 .offset(x: 32, y: -80)
         )
-        
     }
-       
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-            .previewDevice("iPhone 13 Pro Max")
+        HomeView()
     }
 }
