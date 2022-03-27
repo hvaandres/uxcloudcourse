@@ -34,12 +34,11 @@ struct AccountView: View {
                 .foregroundStyle(.blue, .black.opacity(0.3))
                 .padding()
                 .background(Circle().fill(.ultraThinMaterial))
-                .background(Image(systemName: "hexagon")
-                                .symbolVariant(.fill)
-                                .foregroundColor(.blue)
-                                .font(.system(size: 200))
-                                .offset(x: -50, y: -100)
-                            
+                .background(
+                    // Hexagonview is coming from HezagonView file by using Canvas API
+                    HexagonView()
+                        .offset(x: -50, y: -100)
+                    
                 )
             
             Text("Andres Haro")

@@ -12,6 +12,8 @@
 		054E9A9A27D9C81E00701FF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E9A9927D9C81E00701FF5 /* ContentView.swift */; };
 		054E9A9C27D9C81F00701FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054E9A9B27D9C81F00701FF5 /* Assets.xcassets */; };
 		054E9A9F27D9C81F00701FF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054E9A9E27D9C81F00701FF5 /* Preview Assets.xcassets */; };
+		0567343027F0273F00D582B5 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0567342F27F0273F00D582B5 /* HexagonView.swift */; };
+		0567343227F02C0600D582B5 /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0567343127F02C0600D582B5 /* BlobView.swift */; };
 		05DD02AA27E2FB96004EEFF6 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD02A927E2FB96004EEFF6 /* Styles.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +24,8 @@
 		054E9A9927D9C81E00701FF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		054E9A9B27D9C81F00701FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		054E9A9E27D9C81F00701FF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0567342F27F0273F00D582B5 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		0567343127F02C0600D582B5 /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
 		05DD02A927E2FB96004EEFF6 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +63,8 @@
 				054E9A9927D9C81E00701FF5 /* ContentView.swift */,
 				05DD02A927E2FB96004EEFF6 /* Styles.swift */,
 				05040CC327E52E2200569E4C /* AccountView.swift */,
+				0567343127F02C0600D582B5 /* BlobView.swift */,
+				0567342F27F0273F00D582B5 /* HexagonView.swift */,
 				054E9A9B27D9C81F00701FF5 /* Assets.xcassets */,
 				054E9A9D27D9C81F00701FF5 /* Preview Content */,
 			);
@@ -144,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05040CC427E52E2200569E4C /* AccountView.swift in Sources */,
+				0567343027F0273F00D582B5 /* HexagonView.swift in Sources */,
 				05DD02AA27E2FB96004EEFF6 /* Styles.swift in Sources */,
+				0567343227F02C0600D582B5 /* BlobView.swift in Sources */,
 				054E9A9A27D9C81E00701FF5 /* ContentView.swift in Sources */,
 				054E9A9827D9C81E00701FF5 /* uxcloudcourseApp.swift in Sources */,
 			);
