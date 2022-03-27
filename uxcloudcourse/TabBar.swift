@@ -25,8 +25,9 @@ struct TabBar: View {
                     ContentView()
                 }
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
             
-            .frame(minWidth: .infinity, maxWidth: .infinity)
+        
             
             
             
@@ -48,7 +49,7 @@ struct TabBar: View {
                         }
                         .frame(maxWidth: .infinity)
                     }
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(selectedTab == item.tab ? .primary : .secondary)
                 }
                 
             }
