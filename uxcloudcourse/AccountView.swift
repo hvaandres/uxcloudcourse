@@ -41,6 +41,12 @@ struct AccountView: View {
                     
                 )
             
+                .background(
+                    BlobView()
+                        .offset(x: 200, y: 0)
+                        .scaleEffect(0.5) 
+                )
+            
             Text("Andres Haro")
                 .font(.title.weight(.semibold))
             HStack {
