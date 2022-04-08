@@ -12,34 +12,26 @@ struct ContentView: View {
     var body: some View {
         ZStack(alignment: .bottom)  {
             
-            Group {
-                switch selectedTab {
-                case .home:
-                    HomeView()
-                case .explore:
-                    AccountView()
-                case .notifications:
-                    HomeView()
-                case .library:
-                    HomeView()
-                }
+            
+            switch selectedTab {
+            case .home:
+                HomeView()
+            case .explore:
+                AccountView()
+            case .notifications:
+                HomeView()
+            case .library:
+                HomeView()
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            
-            
             
             TabBar()
-            
-            
-            
-            
         }
         .safeAreaInset(edge: .bottom, content: {
             Color.clear.frame(height: 44)
         })
         
     }
-       
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

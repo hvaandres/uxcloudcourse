@@ -10,6 +10,8 @@
 		05040CC427E52E2200569E4C /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05040CC327E52E2200569E4C /* AccountView.swift */; };
 		054ACA3C2800BC67000E6EEB /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054ACA3B2800BC66000E6EEB /* FeaturedItem.swift */; };
 		054ACA3E2800BF87000E6EEB /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054ACA3D2800BF87000E6EEB /* NavigationBar.swift */; };
+		054ACA402800E3D2000E6EEB /* PreferencesKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054ACA3F2800E3D2000E6EEB /* PreferencesKeys.swift */; };
+		054ACA422800EE30000E6EEB /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054ACA412800EE30000E6EEB /* AnimatableFontModifier.swift */; };
 		054E9A9827D9C81E00701FF5 /* uxcloudcourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E9A9727D9C81E00701FF5 /* uxcloudcourseApp.swift */; };
 		054E9A9A27D9C81E00701FF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E9A9927D9C81E00701FF5 /* ContentView.swift */; };
 		054E9A9C27D9C81F00701FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054E9A9B27D9C81F00701FF5 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 		05040CC327E52E2200569E4C /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		054ACA3B2800BC66000E6EEB /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
 		054ACA3D2800BF87000E6EEB /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		054ACA3F2800E3D2000E6EEB /* PreferencesKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesKeys.swift; sourceTree = "<group>"; };
+		054ACA412800EE30000E6EEB /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
 		054E9A9427D9C81E00701FF5 /* uxcloudcourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uxcloudcourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		054E9A9727D9C81E00701FF5 /* uxcloudcourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uxcloudcourseApp.swift; sourceTree = "<group>"; };
 		054E9A9927D9C81E00701FF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				0567343527F03E2800D582B5 /* Tab.swift */,
+				054ACA3F2800E3D2000E6EEB /* PreferencesKeys.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				05DD02A927E2FB96004EEFF6 /* Styles.swift */,
+				054ACA412800EE30000E6EEB /* AnimatableFontModifier.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 			files = (
 				05DE945A27F052AA005FFE33 /* HomeView.swift in Sources */,
 				05040CC427E52E2200569E4C /* AccountView.swift in Sources */,
+				054ACA402800E3D2000E6EEB /* PreferencesKeys.swift in Sources */,
 				0567343027F0273F00D582B5 /* HexagonView.swift in Sources */,
 				05DD02AA27E2FB96004EEFF6 /* Styles.swift in Sources */,
 				0567343627F03E2800D582B5 /* Tab.swift in Sources */,
@@ -215,6 +222,7 @@
 				054E9A9827D9C81E00701FF5 /* uxcloudcourseApp.swift in Sources */,
 				054ACA3C2800BC67000E6EEB /* FeaturedItem.swift in Sources */,
 				0567343427F0381600D582B5 /* TabBar.swift in Sources */,
+				054ACA422800EE30000E6EEB /* AnimatableFontModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
