@@ -34,6 +34,9 @@ struct ContentView: View {
             
             
         }
+        .safeAreaInset(edge: .bottom, content: {
+            Color.clear.frame(height: 44)
+        })
         
     }
        
